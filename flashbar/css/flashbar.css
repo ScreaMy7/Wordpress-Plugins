@@ -1,0 +1,31 @@
+div.scrolling-limit{
+    max-width: 5000em;
+    width: 3000px;
+    height: 150px;
+    background-color: #e8a010;
+    color: #020202;
+    overflow:hidden;
+    white-space:nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    
+  }
+  
+  div.scrolling{
+    position: relative;
+    -webkit-animation: scroll 10s infinite linear;;
+    -moz-animation: scroll 10s infinite linear;
+    -o-animation: scroll 10s infinite linear;
+    animation: scroll 10s infinite linear;
+    font-weight: 600;
+      padding: 30px;
+  }
+  
+  @keyframes scroll{
+      0%   {left: 2000px;}
+      100% {left: -950px;}
+  }
+  @-webkit-keyframes scroll{
+      0%   {left: 2000px;}
+      100% {left: -950px;}
+  }
